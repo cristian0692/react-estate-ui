@@ -1,10 +1,10 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./pages/layout/layout.scss";
-import HomePage from "./pages/homePage/homePage";
-import ListPage from "./pages/listPage/listPage";
-import LoginPage from "./pages/loginPage/loginPage";
-import SinglePage from "./pages/singlePage/singlePage";
-import Layout from "./pages/layout/layout";
+import HomePage from "./pages/homePage/HomePage";
+import ListPage from "./pages/listPage/ListPage.jsx";
+import LoginPage from "./pages/loginPage/LoginPage";
+import SinglePage from "./pages/singlePage/SinglePage";
+import Layout from "./pages/layout/Layout";
 function App() {
   const router = createBrowserRouter([
     {

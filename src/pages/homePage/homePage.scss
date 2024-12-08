@@ -1,8 +1,8 @@
 @use "../../responsive.scss" as responsive;
+
 .homePage {
   display: flex;
   height: 100%;
-
   .textContainer {
     flex: 3;
     .wrapper {
