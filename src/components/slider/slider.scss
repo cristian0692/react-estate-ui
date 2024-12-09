@@ -35,7 +35,9 @@
         @include responsive.sm {
           width: 20px;
         }
-        height: auto;
+        & {
+          height: auto;
+        }
       }
     }
     .imgContainer {
